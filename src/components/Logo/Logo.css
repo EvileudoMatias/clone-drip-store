@@ -1,4 +1,10 @@
 .box-logo {
+  gap: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-logo a {
   display: flex;
   justify-content: center;
   align-items: center;

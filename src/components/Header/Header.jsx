@@ -4,7 +4,7 @@ import Logo from '../Logo/Logo';
 export default function Header(){
     return(
         <header>
-            <Logo/>
+            <Logo src={'../../../public/Logo.svg'}cor={"#C92071"}/>
         </header>
     );
 }
