@@ -1,17 +1,15 @@
 #header {
   width: 100%;
-  border: 1px solid red;
 }
 #header .box-header {
   display: flex;
   width: 90rem;
   height: 12rem;
   margin: 0 auto;
-  border: 1px solid red;
   padding: 0 6.25rem;
 }
 #header .box-header .box-header-children {
-
+  display: flex;
   border: 1px solid red;
   width: 62rem;
   height: 8rem;
