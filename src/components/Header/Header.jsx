@@ -2,6 +2,7 @@ import { Logo } from '../Logo/Logo';
 import { Input } from '../Input/Input';
 import { Button } from '../Button/Button';
 import { ShopCart } from '../ShopCart/ShopCart';
+import { UseFul } from '../UseFul/UseFul';
 import './Header.css'
 
 export const Header = () => {
@@ -19,6 +20,13 @@ export const Header = () => {
           type={'text'}
           placeholder={'pesquisar produto...'}
           src={'../../../public/search.svg'}
+          />
+          <UseFul
+          href={'#'}
+          value={'Cadastre-se'}
+          margin={'1.2rem 0 0 0'}
+          color={'#474747'}
+          textDecoration={'underline'}
           />
         </div>
         <Button 
