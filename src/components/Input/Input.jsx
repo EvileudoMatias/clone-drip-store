@@ -1,4 +1,4 @@
-import './Input.css'
+import './Input.css';
 
 export const Input = ({type, placeholder, src, width, height, margin}) => {
   return(

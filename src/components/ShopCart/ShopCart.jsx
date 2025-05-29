@@ -1,4 +1,4 @@
-import './ShopCart.css'
+import './ShopCart.css';
 
 export const ShopCart = ({value}) => {
   return(

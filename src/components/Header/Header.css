@@ -10,7 +10,6 @@
 }
 #header .box-header .box-header-children {
   display: flex;
-  border: 1px solid red;
   width: 62rem;
   height: 8rem;
   margin-top: 2.125rem;
