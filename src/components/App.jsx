@@ -4,6 +4,7 @@ import { Inicio } from '../pages/Inicio';
 import { Produtos } from '../pages/Produtos';
 import { Pedidos } from '../pages/Pedidos';
 import { Ofertas } from '../pages/Ofertas';
+import { Footer } from './Footer/Footer';
 import { NaoEncontrado } from '../pages/NaoEncontrado';
 
 export const App = () => {
@@ -17,6 +18,7 @@ export const App = () => {
           <Route path='ofertas' element={<Ofertas/>}/>
           <Route path='*' element={<NaoEncontrado/>}/>
          </Routes>
+         <Footer/>
     </BrowserRouter>
   );
 }
