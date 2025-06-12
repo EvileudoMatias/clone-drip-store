@@ -1,4 +1,3 @@
-import './Nav.css';
 
 export const Nav = ({children, gap, flexDirection, width, height, position, top, margin}) => {
   return(

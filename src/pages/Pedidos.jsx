@@ -1,6 +1,12 @@
 
+import './Main.css'
+
 export const Pedidos = () => {
   return(
-    <h1>Página de Pedidos</h1>
+    <div className="main-container">
+      <div className='main-box'>
+        <h1>pagina de Pedidos</h1>
+      </div>
+    </div>
   );
 }

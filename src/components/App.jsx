@@ -8,17 +8,17 @@ import { Footer } from './Footer/Footer';
 import { NaoEncontrado } from '../pages/NaoEncontrado';
 
 export const App = () => {
-  return(
+  return (
     <BrowserRouter>
-       <Header/>
-         <Routes>
-          <Route path='/' element={<Inicio/>}/>
-          <Route path='produtos' element={<Produtos/>}/>
-          <Route path='pedidos' element={<Pedidos/>}/>
-          <Route path='ofertas' element={<Ofertas/>}/>
-          <Route path='*' element={<NaoEncontrado/>}/>
-         </Routes>
-         <Footer/>
+      <Header />
+      <Routes>
+        <Route path='/' element={<Inicio />} />
+        <Route path='produtos' element={<Produtos />} />
+        <Route path='pedidos' element={<Pedidos />} />
+        <Route path='ofertas' element={<Ofertas />} />
+        <Route path='*' element={<NaoEncontrado />} />
+      </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

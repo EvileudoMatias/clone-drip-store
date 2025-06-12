@@ -1,6 +1,12 @@
 
+import './Main.css'
+
 export const Ofertas = () => {
-  return(
-    <h1>Página de Ofertas</h1>
+  return (
+    <div className="main-container">
+      <div className='main-box'>
+        <h1>pagina de ofertas</h1>
+      </div>
+    </div>
   );
 }

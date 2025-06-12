@@ -124,7 +124,7 @@ export const Footer = () => {
             <p>(85) 3051-3411</p>
           </div>
         </div>
-        <p className='box-copy'>&copy; 2025 Matias</p>
+        <p className='box-copy'>&copy; 2025 Geração Tech</p>
       </div>
     </footer>
   );
